@@ -150,7 +150,7 @@ function commander(cmd) {
       newTab(github);
       break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <p class=\"command\">help</p>.</span>", "error", 100);
+      addLine("Command not found. For a list of commands, type <span class=\"command\">help</span>", "error", 100);
       break;
   }
 }
