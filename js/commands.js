@@ -5,6 +5,7 @@ var linkedin = "https://www.linkedin.com/in/forrestpknight/";
 var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
 var email = 'mailto:forrest@fkcodes.com';
+var cv = "documents/cv.pdf"
 
 about = [
   "<br>",
@@ -50,7 +51,7 @@ help = [
   "<br>",
   '<span class="command">about</span>          Who am I ?',
   '<span class="command">whoami</span>         Who are you ?',
-  '<span class="command">video</span>          View YouTube videos',
+  '<span class="command">cv</span>             Curriculum vitae',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
