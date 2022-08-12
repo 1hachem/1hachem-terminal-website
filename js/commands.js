@@ -1,11 +1,8 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = 'mailto:forrest@fkcodes.com';
-var cv = "documents/cv.pdf"
+var linkedin = "https://www.linkedin.com/in/hachem-betrouni/";
+var upwork = "https://www.upwork.com/freelancers/~01b79e4e53cd1ca324";
+var github = "https://github.com/1hachem/";
+var email = "mailto:hachem.betrouni@g.enp.edu.dz";
+var cv = "documents/cv.pdf";
 
 about = [
   "<br>",
@@ -19,19 +16,11 @@ about = [
   "<br>"
 ];
 
-whoami = [
-  "<br>",
-  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
-  "<br>"
-];
-
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  'linkedin      <a href="' + linkedin + '" target="_blank">in/hachem-betrouni' + '</a>',
+  'github        <a href="' + github + '" target="_blank">github/1hachemt' + "</a>",
+  'upwrok        <a href="' + upwork + '" target="_blank">upwork/Hachem Betrouni' + "</a>",
   "<br>"
 ];
 
@@ -50,14 +39,11 @@ projects = [
 help = [
   "<br>",
   '<span class="command">about</span>          Who am I ?',
-  '<span class="command">whoami</span>         Who are you ?',
   '<span class="command">cv</span>             Curriculum vitae',
   '<span class="command">social</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
-  '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
+  '<span class="command">email</span>          Email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
   "<br>",

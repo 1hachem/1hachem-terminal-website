@@ -64,9 +64,7 @@ b {
   background-color: #000000;
   content: "visitor@1hachem.github.io:~$";
 }
-#liner.password::before {
-  content: "Password:";
-}
+
 @keyframes show {
   from {
     opacity: 0;

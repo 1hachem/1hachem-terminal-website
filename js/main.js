@@ -16,12 +16,6 @@ setTimeout(function() {
 
 window.addEventListener("keyup", enterKey);
 
-console.log(
-  "%cYou hacked my password!😠",
-  "color: #04ff00; font-weight: bold; font-size: 24px;"
-);
-console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
-
 //init
 textarea.value = "";
 command.innerHTML = textarea.value;
@@ -30,28 +24,7 @@ function enterKey(e) {
   if (e.keyCode == 181) {
     document.location.reload(true);
   }
-  if (pw) {
-    let et = "*";
-    let w = textarea.value.length;
-    command.innerHTML = et.repeat(w);
-    if (textarea.value === password) {
-      pwd = true;
-    }
-    if (pwd && e.keyCode == 13) {
-      loopLines(secret, "color2 margin", 120);
-      command.innerHTML = "";
-      textarea.value = "";
-      pwd = false;
-      pw = false;
-      liner.classList.remove("password");
-    } else if (e.keyCode == 13) {
-      addLine("Wrong password", "error", 0);
-      command.innerHTML = "";
-      textarea.value = "";
-      pw = false;
-      liner.classList.remove("password");
-    }
-  } else {
+  else {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
@@ -78,15 +51,12 @@ function enterKey(e) {
 }
 
 function commander(cmd) {
-  switch (cmd.toLowerCase()) {
+  switch (cmd.toLowerCase().replace(/\s/g, '')) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
     case "about":
       loopLines(about, "color2 margin", 80);
-      break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
       break;
     case "cv":
       addLine("Loading humble cv...", "color2", 80);
@@ -101,20 +71,8 @@ function commander(cmd) {
     case "social":
       loopLines(social, "color2 margin", 80);
       break;
-    case "secret":
-      liner.classList.add("password");
-      pw = true;
-      break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
-      break;
-    case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
-      break;
-    case "history":
-      addLine("<br>", "", 0);
-      loopLines(commands, "color2", 80);
-      addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
       addLine('mail me at <a href="mailto:hachem.betrouni@g.enp.edu.dz">hachem.betrouni@g.enp.edu.dz</a>', "color2", 80);
@@ -129,21 +87,13 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
+    case "upwork":
+      addLine("Opening upwork profile...", "color2", 0);
+      newTab(upwork);
       break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);
