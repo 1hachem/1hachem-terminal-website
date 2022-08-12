@@ -44,7 +44,8 @@ const deviceTypeBanner = () => {
   
   if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
 
-      banner = ['<span class="color2">Welcome to my interactive web terminal.</span>',
+      banner = ['', ' /$$   /$$                     /$$                              ', '| $$  | $$                    | $$                              ', '| $$  | $$  /$$$$$$   /$$$$$$$| $$$$$$$   /$$$$$$  /$$$$$$/$$$$ ', '| $$$$$$$$ |____  $$ /$$_____/| $$__  $$ /$$__  $$| $$_  $$_  $$', '| $$__  $$  /$$$$$$$| $$      | $$  \\ $$| $$$$$$$$| $$ \\ $$ \\ $$', '| $$  | $$ /$$__  $$| $$      | $$  | $$| $$_____/| $$ | $$ | $$', '| $$  | $$|  $$$$$$$|  $$$$$$$| $$  | $$|  $$$$$$$| $$ | $$ | $$', '|__/  |__/ \\_______/ \\_______/|__/  |__/ \\_______/|__/ |__/ |__/', '                                                                ', '                                                                ', '                                                                ', '',
+      ,'<span class="color2">Welcome to my interactive web terminal.</span>',
       "For a list of available commands, type <span class=\"command\">help</span>"];
 
   }else{
