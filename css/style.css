@@ -1,3 +1,13 @@
+nav ul{
+list-style: none;
+text-align: left;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px 20px;
+}
+
 body {
   margin: 0;
   padding: 15px 20px;
@@ -7,6 +17,7 @@ body {
   color: #000000;
   background: #fbfbfa;
   font-family: cursor, monospace;
+  font-size: 17px;
   overflow-x: hidden;
 }
 ::selection {
@@ -27,13 +38,13 @@ b {
 }
 /* Cursor Start */
 .cursor {
-  font-size: 12px;
+  font-size: 15px;
   color: #202020;
   background-color: #202020;
   position: relative;
   opacity: 1;
   height: 1.5em;
-  width: 10px;
+  width: 8px;
   max-width: 10px;
   transform: translateY(4px);
   overflow: hidden;

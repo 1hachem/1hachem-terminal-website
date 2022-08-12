@@ -39,27 +39,6 @@ help = [
   "<br>",
 ];
 
-const deviceTypeBanner = () => {
-  const ua = navigator.userAgent;
-  
-  if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
-
-      banner = ['', ' /$$   /$$                     /$$                              ', '| $$  | $$                    | $$                              ', '| $$  | $$  /$$$$$$   /$$$$$$$| $$$$$$$   /$$$$$$  /$$$$$$/$$$$ ', '| $$$$$$$$ |____  $$ /$$_____/| $$__  $$ /$$__  $$| $$_  $$_  $$', '| $$__  $$  /$$$$$$$| $$      | $$  \\ $$| $$$$$$$$| $$ \\ $$ \\ $$', '| $$  | $$ /$$__  $$| $$      | $$  | $$| $$_____/| $$ | $$ | $$', '| $$  | $$|  $$$$$$$|  $$$$$$$| $$  | $$|  $$$$$$$| $$ | $$ | $$', '|__/  |__/ \\_______/ \\_______/|__/  |__/ \\_______/|__/ |__/ |__/', '                                                                ', '                                                                ', '                                                                ', '',
-      ,'<span class="color2">Welcome to my interactive web terminal.</span>',
-      "For a list of available commands, type <span class=\"command\">help</span>"];
-
-  }else{
-
-  banner = [
-    '', '                                                                                                                                                      ', '        ,--,                                                                                                                                          ', "      ,--.'|                       ,---,                       ____                     ____                                    ,--,                  ", "   ,--,  | :                     ,--.' |                     ,'  , `.                 ,'  , `.  ,--,                          ,--.'|                  ", ",---.'|  : '                     |  |  :                  ,-+-,.' _ |    ,---,.    ,-+-,.' _ |,--.'|         ,---,            |  | :                  ", "|   | : _' |                     :  :  :               ,-+-. ;   , ||  ,'  .' | ,-+-. ;   , |||  |,      ,-+-. /  |           :  : '                  ", ":   : |.'  |  ,--.--.     ,---.  :  |  |,--.   ,---.  ,--.'|'   |  ||,---.'   ,,--.'|'   |  ||`--'_     ,--.'|'   |  ,--.--.  |  ' |                  ", '|   \' \'  ; : /       \\   /     \\ |  :  \'   |  /     \\|   |  ,\', |  |,|   |    |   |  ,\', |  |,,\' ,\'|   |   |  ,"\' | /       \\ \'  | |                  ', "'   |  .'. |.--.  .-. | /    / ' |  |   /' : /    /  |   | /  | |--' :   :  .'|   | /  | |--' '  | |   |   | /  | |.--.  .-. ||  | :                  ", "|   | :  | ' \\__\\/: . ..    ' /  '  :  | | |.    ' / |   : |  | ,    :   |.'  |   : |  | ,    |  | :   |   | |  | | \\__\\/: . .'  : |__                ", '\'   : |  : ; ," .--.; |\'   ; :__ |  |  \' | :\'   ;   /|   : |  |/     `---\'    |   : |  |/     \'  : |__ |   | |  |/  ," .--.; ||  | \'.\'|               ', "|   | '  ,/ /  /  ,.  |'   | '.'||  :  :_:,''   |  / |   | |`-'               |   | |`-'      |  | '.'||   | |--'  /  /  ,.  |;  :    ;               ", ";   : ;--' ;  :   .'   \\   :    :|  | ,'    |   :    |   ;/                   |   ;/          ;  :    ;|   |/     ;  :   .'   \\  ,   /                ", "|   ,/     |  ,     .-./\\   \\  / `--''       \\   \\  /'---'                    '---'           |  ,   / '---'      |  ,     .-./---`-'                 ", "'---'       `--`---'     `----'               `----'                                           ---`-'              `--`---'                           ", '                                                                                                                                                      ', '',
-      '<span class="color2">Welcome to my interactive web terminal.</span>',
-      "For a list of available commands, type <span class=\"command\">help</span>",
-    ];
-  }
-  
-  return banner;
-};
-
 const deviceTypeAbout = () => {
   const ua = navigator.userAgent;
   
@@ -94,6 +73,17 @@ const deviceTypeAbout = () => {
 };
 
 
-banner = deviceTypeBanner();
+banner =[
+  "loading portfolio ...",
+  "installing cv ...",
+  "other dependencies ...",
+  "--------------",
+  "done !",
+  "<br>",
+  '<span class="color2">Welcome to my interactive web terminal.</span>',
+  "For a list of available commands, type <span class=\"command\">help</span>",
+  "<br>"
+];
+
 about = deviceTypeAbout();
 
