@@ -31,11 +31,11 @@ help = [
   '<span class="command">about</span>          Who am I ?',
   '<span class="command">cv</span>             Curriculum vitae',
   '<span class="command">social</span>         Display social networks',
-  '<span class="command">projects</span>       View coding projects',
+  '<span class="command">projects</span>       View my projects',
+  '<span class="command">blogs</span>          Read my blogs',
   '<span class="command">help</span>           You know what this does',
   '<span class="command">email</span>          Email me',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
   "<br>",
 ];
 
