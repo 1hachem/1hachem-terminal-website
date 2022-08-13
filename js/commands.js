@@ -4,7 +4,7 @@ var github = "https://github.com/1hachem/";
 var email = "mailto:hachem.betrouni@g.enp.edu.dz";
 var cv = "documents/cv.pdf";
 
-social = [
+links = [
   "<br>",
   'linkedin      <a href="' + linkedin + '" target="_blank">in/hachem-betrouni' + '</a>',
   "<br>",
@@ -22,7 +22,13 @@ secret = [
 
 projects = [
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  '<a href=\"projects/mutaGAN.html\">mutaGAN</a>    re-implementation of a seq2seq GAN for protein generation',
+  "<br>",
+  '<a href=\"projects/road.html\">road-AI</a>    monitoring road construction with AI and photogrammetry process (3D construction)',
+  "<br>",
+  '<a href=\"projects/focus.html\">focus-AI</a>    using AI to recognize signs of distraction and monitoring user\'s focus',
+  "<br>",
+  '<a href=\"projects/sat.html\">wildfire-sim</a>    Applying semi-empirical simulation of wildfire on real-world satellite data',
   "<br>"
 ];
 
@@ -30,7 +36,7 @@ help = [
   "<br>",
   '<span class="command">about</span>          Who am I ?',
   '<span class="command">cv</span>             Curriculum vitae',
-  '<span class="command">social</span>         Display social networks',
+  '<span class="command">links</span>          Display useful links',
   '<span class="command">projects</span>       View my projects',
   '<span class="command">blogs</span>          Read my blogs',
   '<span class="command">help</span>           You know what this does',
