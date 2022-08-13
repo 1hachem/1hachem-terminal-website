@@ -22,13 +22,20 @@ secret = [
 
 projects = [
   "<br>",
-  '<a href=\"projects/mutaGAN.html\">mutaGAN</a>    re-implementation of a seq2seq GAN for protein generation',
+  '## <a onclick=\"newTab(\'https://github.com/1hachem/mutaGAN\')\">mutaGAN</a>','a re-implementation of a seq2seq GAN','for protein generation',
   "<br>",
-  '<a href=\"projects/road.html\">road-AI</a>    monitoring road construction with AI and photogrammetry process (3D construction)',
+  '## <a href="#">road-AI</a>','monitoring road construction with AI','and photogrammetry process (3D construction)',
   "<br>",
-  '<a href=\"projects/focus.html\">focus-AI</a>    using AI to recognize signs of distraction and monitoring user\'s focus',
+  '## <a onclick=\"newTab(\'https://github.com/1hachem/ScrapCo\')\">ScrapCo</a>','python package to scrap data about','the hiring market (companies)',
   "<br>",
-  '<a href=\"projects/sat.html\">wildfire-sim</a>    Applying semi-empirical simulation of wildfire on real-world satellite data',
+  '## <a onclick=\"newTab(\'https://github.com/1hachem/Monitoring-focus-by-recognizing-posture-and-signs-of-distraction\')\">focus-AI</a>',
+  'using AI to recognize signs of distraction','and monitoring user\'s focus',
+  "<br>",
+  '## <a onclick=\"newTab(\'https://github.com/1hachem/semi-empirical-simulation-of-wildfire-on-satellite-data\')\">wildfire-sim</a>',
+  'applying semi-empirical simulation of wildfire','on real-world satellite data',
+  "<br>",
+  '## <a onclick=\"newTab(\'https://github.com/1hachem/fetcher-chrome-extention\')\">fetcher-chrome-extension</a>',
+  'adds a context menu item that searches','for selected text on different sites',
   "<br>"
 ];
 
