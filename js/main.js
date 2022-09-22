@@ -80,6 +80,9 @@ function commander(cmd) {
     case "email":
       addLine('mail me at <a href="mailto:hachem.betrouni@g.enp.edu.dz">hachem.betrouni@g.enp.edu.dz</a>', "color2", 80);
       break;
+    // case "blogs":
+    //   loopLines(blogs, "color2 margin", 80);
+    //   break;
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
